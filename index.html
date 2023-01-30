@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="logoHeader">
+        <img src="Imagens/Change_Logo.png" alt="Logo do Challenger" srcset="">
+        <h1>Criptografia on line</h1>
+       </div>
+    <img src="Imagens/logoOne.png" alt="Logo da sigla Oracle Next Educacion" class="OneHeader">
+</header>
+  <main>
+    <div class="textoDigitado">
+      <div class="input">
+        <textarea id="inputTexto" placeholder="Digite o seu texto aqui" ></textarea>
+    </div>
+    <div class="buttons">
+        <div class="containerBtn">
+            <button onclick="btnCriptografa()" id="btnCriptografar">Criptografar</button>
+            <button onclick="btnDescriptografa()" id="btnDesriptografar">Descriptografar</button>
+        </div>
+    </div>
+    </div>
+    <div class="mensagemTransformada">
+      <textarea id="outputTexto" placeholder="Vai aparecer o texto" ></textarea>
+    <div class="buttons">
+        <div class="containerBtn">
+          <button onclick="copiaTexto()" id="btnCriptografar">Copiar</button>
+          <button onclick="tranfereTexto()" id="btnDesriptografar">Copiar para Área de Texto</button>
+        </div>
+    </div>
+  </main>
+  <script src="JS/script.js"></script>
+</body>
+
+</html>
